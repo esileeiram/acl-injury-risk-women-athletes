@@ -21,7 +21,7 @@ Ce projet n'a pas suivi un plan linéaire.
 
 Je suis partie d'une hypothèse simple : les femmes se blessent plus, quels sont les facteurs qui l'expliquent ?
 
-**Premier ajustement*** : mon premier modèle incluait un score de risque ACL dont je ne connaissais pas du tout les composantes. 
+**Premier ajustement** : mon premier modèle incluait un score de risque ACL dont je ne connaissais pas du tout les composantes. 
 En observant qu'il était paradoxalement plus élevé chez les hommes alors qu'ils se blessent moins, j'ai remis en question son utilisation et refait l'analyse sans lui.
 
 **Deuxième ajustement** : j'ai refait la régression uniquement sur les femmes, puis j'ai réalisé que sans comparaison avec les hommes, je ne pouvais pas 
