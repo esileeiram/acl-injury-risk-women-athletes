@@ -14,22 +14,8 @@ Dataset : Collegiate Athlete Injury Dataset (Kaggle)
 - Régression logistique (sklearn)
 - Régression logistique économétrique avec p-values (statsmodels)
 - Analyse spécifique sur sous-population féminine et masculine
-- Mise en perspective avec la littérature scientifique
+- Mise en perspective avec la littérature scientifique : j'ai confronté mes résultats à la littérature scientifique pour tester leur cohérence et identifier ce que mon dataset ne capturait pas.
 
-### Comment l'analyse a évolué
-Ce projet n'a pas suivi un plan linéaire. 
-
-Je suis partie d'une hypothèse simple : les femmes se blessent plus, quels sont les facteurs qui l'expliquent ?
-
-**Premier ajustement** : mon premier modèle incluait un score de risque ACL dont je ne connaissais pas du tout les composantes. 
-En observant qu'il était paradoxalement plus élevé chez les hommes alors qu'ils se blessent moins, j'ai remis en question son utilisation et refait l'analyse sans lui.
-
-**Deuxième ajustement** : j'ai refait la régression uniquement sur les femmes, puis j'ai réalisé que sans comparaison avec les hommes, je ne pouvais pas 
-vraiment conclure que les déterminants étaient différents selon le genre. J'ai donc fait tourner le même modèle sur les deux sous-populations.
-
-*Ouverture : la récupération est le facteur protecteur le plus puissant mais elle est contrainte par les calendriers sportifs. Comment optimiser la prévention sous contrainte institutionnelle ?* 
-
-Mise en perspective : j'ai confronté mes résultats à la littérature scientifique pour tester leur cohérence et identifier ce que mon dataset ne capturait pas.
 
 ### Principaux résultats
 - Fatigue et surcharge d'entraînement augmentent significativement le risque (p<0.05)
@@ -38,6 +24,8 @@ Mise en perspective : j'ai confronté mes résultats à la littérature scientif
 - Le modèle explique mieux le risque féminin (Pseudo R²=0.56) que masculin (0.39)
 - Les facteurs biologiques absents du dataset (hormonaux, biomécaniques) constituent une limite.
 - Des programmes de prévention multicomposants réduisent les blessures ACL de 45% (Crossley et al., BJSM 2020)
+
+*Ouverture : la récupération est le facteur protecteur le plus puissant mais elle est contrainte par les calendriers sportifs. Comment optimiser la prévention sous contrainte institutionnelle ?* 
 
 ### Limites du data set
 - 200 observations, robustesse statistique limitée
