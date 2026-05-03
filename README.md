@@ -25,7 +25,7 @@ Dataset : Collegiate Athlete Injury Dataset (Kaggle)
 - Les facteurs biologiques absents du dataset (hormonaux, biomécaniques) constituent une limite.
 - Des programmes de prévention multicomposants réduisent les blessures ACL de 45% (Crossley et al., BJSM 2020)
 
-*Ouverture : la récupération est le facteur protecteur le plus puissant mais elle est contrainte par les calendriers sportifs. Comment optimiser la prévention sous contrainte institutionnelle ?* 
+*Ouverture : la récupération est le facteur protecteur le plus puissant mais elle est contrainte par les calendriers sportifs. Comment optimiser la prévention sous contrainte de calendrier sportif ?* 
 
 ### Limites du data set
 - 200 observations, robustesse statistique limitée
