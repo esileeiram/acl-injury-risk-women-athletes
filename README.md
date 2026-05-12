@@ -3,7 +3,7 @@
 ## Une analyse économétrique exploratoire
 
 ### Pourquoi ce projet
-Moi-même victime d'une rupture du ligament croisé antérieur, j'ai voulu comprendre pourquoi les athlètes féminines y sont statistiquement plus exposées que les hommes. Ce projet est une première exploration de cette question à travers une analyse économétrique sur données réelles.
+Moi-même victime d'une rupture du ligament croisé antérieur, j'ai voulu comprendre pourquoi les athlètes féminines y sont statistiquement plus exposées que les athlètes masculins. Ce projet est une première exploration de cette question à travers une analyse économétrique sur données réelles.
 
 ### Données
 Dataset : Collegiate Athlete Injury Dataset (Kaggle)
